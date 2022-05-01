@@ -1,6 +1,6 @@
  #the time between responses after which the script will restart the radius
  $timetillrestart = -5
- #make sure the script's own log is not over 500 lines.
+ #make sure the script's own log is not over 501 lines.
  #If runned every 5 minutes during work days between 0800 and 1700, it means a log of 4 and a half day
 	$numberoflines=Get-Content "C:\Scripts\restartradiuslog\log.txt"
 $numberoflines.Count
