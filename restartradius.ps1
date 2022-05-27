@@ -29,7 +29,7 @@ if ( $numberoflines.Count -gt 500 )
                         }
                     default
                         {
-			#how did you even got here?
+			#how did you even get here?
                             $dateandtimestamp = Get-Date -DisplayHint DateTime
                             "$dateandtimestamp ERROR" | Out-File -FilePath C:\Scripts\restartradiuslog\log.txt -Append
                         }
